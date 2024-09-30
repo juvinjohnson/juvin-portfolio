@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+
+
+.home {
+    background: url('https://c4.wallpaperflare.com/wallpaper/670/883/685/plexus-atoms-neutrons-electrons-wallpaper-preview.jpg') no-repeat center center;
+    background-size: cover; 
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+#about img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 30px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #343a40;
+    font-size: 1rem;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+form .form-group label {
+    font-weight: bold;
+}
+
+form .form-control {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #343a40;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #495057;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    margin-right: 10px;
+    color: gray
+}
+.footer a :hover{
+    color: whitesmoke;
+}
+.footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+}
